@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container-rodape {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background-color: black;
+
+}
+
+.container-image {
+    width: 100px;
+}
+
+.container-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-contato {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.container-contato div {
+    border: 1px solid rgb(233, 229, 229);
+    border-radius: 5px;
+    padding: 10px 0;
+    flex: 1 1 240px;
+    text-align: center;
+
+}
+
+.container-descricao {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container-descricao a {
+    width: 40px;
+    height: 40px;
+
+}
